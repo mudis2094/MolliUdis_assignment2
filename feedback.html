@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Feedback</title>
+  </head>
+  <body>
+
+    <style>
+      body {
+        padding-left: 150px;
+        padding-top: 50px;
+      }
+      fieldset {
+        background-color: pink;
+        border: 0px;
+        padding: 50px;
+      }
+    </style>
+  <fieldset>
+
+  <form name="FeedbackForm" action="thankyoupage.html" method="post">
+
+  <legend class="legend" style="color: darkred;"><strong>FEEDBACK</strong></legend>
+  <br>
+
+  <table
+  <col width="40%">
+  <col width="40%">
+
+  <!--Case ID Input-->
+  <tr>
+    <td><strong>CaseID:</strong></td>
+    <td><input type="text" placeholder="34564"></td>
+  </tr>
+
+  <!--Subject Field-->
+  <tr>
+    <td><strong>Subject:<span style="color: red;">&#42;</span></strong></td>
+    <td><input type="text" style="width: 400px"></td>
+  </tr>
+
+  <!--Comment-->
+  <tr>
+    <td valign="top"><strong>Comment:</strong></td>
+    <td><textarea name="comments" rows="8" cols="30"></textarea></td>
+  </tr>
+
+  <!--Importance Field-->
+  <tr>
+    <td><label for="Importance"><strong>Importance:</strong></label></td>
+    <td><input type="radio" name="High">High</td>
+  </tr>
+
+  <tr>
+    <td>&nbsp;</td>
+    <td><input type="radio" name="Medium">Medium
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input type="radio" name="Low">Low
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input type="submit" value="submit">
+  </tr>
+
+  </table>
+
+  </fieldset>
+  </body>
+</html>
